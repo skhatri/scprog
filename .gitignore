@@ -3,3 +3,4 @@ lib_managed
 .gradle
 scprog.iml
 scprog.iws
+out
