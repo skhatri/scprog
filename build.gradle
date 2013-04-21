@@ -2,9 +2,11 @@ apply plugin:'scala'
 apply plugin:'idea'
 
 dependencies {
-    compile 'org.scala-lang:scala-reflect:2.10.0'
-	compile 'org.scala-lang:scala-actors:2.10.0'
+    compile 'org.scala-lang:scala-reflect:2.10.1'
+	compile 'org.scala-lang:scala-actors:2.10.1'
 	compile 'org.scala-tools.testing:scalatest:0.9.5'
+	compile 'org.scala-lang:scala-library:2.10.1'
+	compile 'org.scala-lang:scala-compiler:2.10.1'
 	testCompile 'org.hamcrest:hamcrest-core:1.1'
     testCompile 'junit:junit:4.10'
 }
